@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapremina valjka</title>
+</head>
+<body>
+    <script>
+        function zapreminaValjka (r,h) {
+            return Math.pow(r, 2)*Math.PI*h;
+        }
+        var r = prompt("Unesite vrednost poluprečnika");
+        var h = prompt("Unesite vrednost visine");
+
+        alert("Zapremina valjka iznosi " + zapreminaValjka(r,h));
+    </script>
+</body>
+</html>
